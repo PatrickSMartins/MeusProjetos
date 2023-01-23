@@ -1,0 +1,184 @@
+:root {
+    --corDeFundoPrincipal: #00030cb3;
+    --corDeFundoSecundario: #010513b7;
+    --corPrincipal: #daa520;
+    --corTextoFooter: #a0a0a07e;
+}
+
+body {
+    background-color: var(--corDeFundoSecundario);
+    font-family: 'Harry Potter', sans-serif;
+                                                
+}
+
+header {
+    background-color: var(--corDeFundoPrincipal) ;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 1440px;
+    margin: 0.5em auto;
+
+}
+
+.logo {
+    width: 30%;
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 10em;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: var(--corPrincipal);
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #8a780e;
+}
+
+.banner {
+    width: 100%;
+}
+
+.principal {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    font-size: 24px;
+    margin: 1em 0 1em;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 64px;
+    margin: 0 0 1em;
+    color: var(--corPrincipal);
+    clear: left;
+}
+
+.imagemTexto {
+    width: 360px;
+    float: right;
+    margin: 0 20px 20px 0;
+    align-items: center;
+}
+
+.botao {
+    background-color: var(--corPrincipal);
+    color: #000000;
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+.botao:hover {
+    background-color: #8a780e;
+    transform: scale(1.2)
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.geral {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.containerImagem {
+    width: 70%;
+    margin: 2em 4em;
+}
+
+.descricaoTitulo {
+    color: var(--corPrincipal);
+    font-size: 30px;
+    padding: 0.5em 0;
+}
+
+.descricaoTexto {
+    font-size: 20px;
+    padding: 0.5em 0;
+}
+
+.botaoPaginas {
+    text-align: center;
+    width: 30%;
+}
+
+.casas {
+    text-align: center;
+}
+
+.casasTitulo {
+    font-size: 64px;
+    color: var(--corPrincipal);
+    margin-top: 32px;
+}
+
+.casasLista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.casasLista p {
+    font-size: 20px;
+    padding: 0.5em;
+}
+
+.imagemCasas {
+    width: 180px;
+    padding: 2em 4em;
+}
+
+.linkTesteCasas {
+    font-size: 24px;
+    margin: 1em 0 1em 2em;
+    text-align: center;
+}
+
+.linkTesteCasas a {
+    text-decoration: none;
+    color: var(--corPrincipal);
+}
+
+.linkTesteCasas a:hover {
+    color: #8a780e;
+}
+
+.rodape {
+    background-color: var(--corDeFundoPrincipal);
+    text-align: center;
+    padding: 2em 0;
+    margin-top: 2em;
+    color: var(--corTextoFooter);
+}
+
+
