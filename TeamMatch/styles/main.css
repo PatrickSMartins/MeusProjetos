@@ -29,19 +29,19 @@ main {
 }
 
 
-.sobre-plataforma{
+.sobre-plataforma {
    color: var(--branco);
    font-family: var(--fonte-principal);
    text-align: center;
 
 }
 
-.texto__titulo{
+.texto__titulo {
     font-size: 2rem;
     font-weight: 600;
     padding-top: 2em;
 }
-.texto__paragrafo{
+.texto__paragrafo {
     display: flex;
     font-size: 1em;
     margin: 1em 0 ;
